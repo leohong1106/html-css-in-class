@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <style>
+        table, th, td{
+            border: 0.5px solid black;
+        }
+        th{
+        padding: 1px;
+        text-align: center; 
+        }
+        td{
+        padding: 1px;
+        text-align: left;
+        width:75%;
+        }
+        </style>
+    </head>
+
+    <body>
+        <table style="width:80%">
+            <tr>
+                <th>이름</th>
+                <td><input type="text" name="이름"></td>
+            </tr>
+            <tr>
+                <th>주민등록번호</th>
+                <td><input type="text">-<input type="text"></td>
+            </tr>
+            <tr>
+                <th>생년월일</th>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <th>아이디</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td><input type="text">영문/숫자포함 6자 이상</td>
+            </tr>
+            <tr>
+                <th>비밀번호 확인</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>취미</th>
+                <td>
+                    <select name="hobbies">
+                        <option value="선택하세요">선택하세요</option>
+                        <option value="운동하기">운동하기</option>
+                        <option value="음악듣기">음악듣기</option>
+                        <option value="게임하기">게임하기</option>
+                        <option value="영화보기">영화보기</option>
+                        <option value="독서하기">독서하기</option>
+                        <option value="기타">기타</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>이메일</th>
+                <td><input type="text">@<input type="text">
+                    <select name="choose">
+                            <option value="직접입력">직접입력</option>
+                            <option value="네이버">www.naver.com</option>
+                            <option value="g메일">www.gmail.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>주소</th>
+                <td>
+                    <input type="text"><button>주소찾기</button><br>
+                    <input type="text" name="상세주소" placeholder="상세주소">
+                </td>
+            </tr>
+            <tr>
+                <th>전화번호</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>핸드폰 번호</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>직업</th>
+                <td>  <select name="job">
+                        <option value="선택하세요">선택하세요</option>
+                        <option value="회사원">회사원</option>
+                        <option value="공무원">공무원</option>
+                        <option value="의사">의사</option>
+                        <option value="사업가">사업가</option>
+                        <option value="운동선수">운동선수</option>
+                        <option value="연예인">연예인</option>
+                        <option value="군인">군인</option>
+                        <option value="기타">기타</option>
+                      </select></td>
+            </tr>
+            <tr>
+                <th>메일/sns 정보 수신</th>
+                <td>
+                    <form>
+                        <input type="radio">수신<input type="radio">수신거부
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>회원종류</th>
+                <td>
+                    <form>
+                    <input type="radio">일반회원<input type="radio">기업회원
+                    <input type="radio">기관회원<input type="radio">관리자
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>정보공개여부</th>
+                <td>
+                        <select name="choose">
+                                <option value="선택하세요">선택하세요</option>
+                                <option value="공개함">공개함</option>
+                                <option value="공개안함">공개안함</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button>
+                        회원가입
+                    </button>
+                    <button>
+                        취소
+                    </button>
+                </th>
+            </tr>
+        
+        </table>
+    </body>
+</html>
